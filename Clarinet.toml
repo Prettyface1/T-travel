@@ -1,0 +1,19 @@
+[project]
+name = 't-travel'
+description = 'Decentralized travel booking platform on Stacks blockchain'
+authors = ['T-travel Team']
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.t-travel-main]
+path = 'contracts/t-travel-main.clar'
+clarity_version = 4
+epoch = "3.3"
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
