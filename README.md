@@ -1,4 +1,4 @@
-# T-travel 🌍✈️
+# T-travel
 
 > Decentralized Travel Booking Platform on Stacks Blockchain
 
@@ -8,28 +8,28 @@
 
 ## Overview
 
-T-travel is a revolutionary decentralized travel booking platform built on the Stacks blockchain. It leverages smart contracts to provide transparent, trustless, and secure travel bookings while rewarding users for their participation in the ecosystem.
+T-travel is a decentralized travel booking platform built on the Stacks blockchain. It leverages smart contracts to provide transparent, trustless, and secure travel bookings while rewarding users for their participation in the ecosystem.
 
-## ✨ Features
+## Features
 
 ### Core Functionality
-- 🔐 **Wallet Integration** - Connect with Hiro, Xverse, and other Stacks wallets
-- 🏨 **Decentralized Bookings** - Book destinations with on-chain confirmation
-- 💰 **STX Payments** - Secure payments using STX cryptocurrency
-- ⭐ **On-chain Reviews** - Immutable, blockchain-verified reviews
-- 🎁 **Rewards System** - Earn loyalty rewards for bookings and reviews
-- 🔔 **Real-time Updates** - Live booking notifications via Chainhooks
+- **Wallet Integration** - Connect with Hiro, Xverse, and other Stacks wallets
+- **Decentralized Bookings** - Book destinations with on-chain confirmation
+- **STX Payments** - Secure payments using STX cryptocurrency
+- **On-chain Reviews** - Immutable, blockchain-verified reviews
+- **Rewards System** - Earn loyalty rewards for bookings and reviews
+- **Real-time Updates** - Live booking notifications via Chainhooks
 
 ### Technical Features
-- 🌐 **Multi-Wallet Support** - WalletConnect integration
-- 📱 **Progressive Web App** - Install as mobile app
-- 🌙 **Dark Mode** - Beautiful dark theme support
-- 🌍 **Internationalization** - Multi-language support
-- ♿ **Accessibility** - WCAG 2.1 Level AA compliant
-- 🚀 **Performance Optimized** - Code splitting, lazy loading
-- 🔍 **SEO Optimized** - Server-side rendering ready
+- **Multi-Wallet Support** - WalletConnect integration
+- **Progressive Web App** - Install as mobile app
+- **Dark Mode** - Dark theme support
+- **Internationalization** - Multi-language support
+- **Accessibility** - WCAG 2.1 Level AA compliant
+- **Performance Optimized** - Code splitting, lazy loading
+- **SEO Optimized** - Server-side rendering ready
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Blockchain
 - **Stacks Blockchain** - Layer-1 blockchain for Bitcoin
@@ -49,7 +49,7 @@ T-travel is a revolutionary decentralized travel booking platform built on the S
 - **WalletConnect** - Multi-wallet protocol
 - **Hiro Platform** - Stacks API and tools
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Node.js 18+ 
@@ -79,7 +79,7 @@ npm run dev
 
 The app will be available at `http://localhost:3000`
 
-## 🔧 Development
+## Development
 
 ### Project Structure
 
@@ -136,7 +136,7 @@ clarinet test
 clarinet deploy --testnet
 ```
 
-## 🔐 Smart Contracts
+## Smart Contracts
 
 ### Main Contract (`t-travel-main.clar`)
 - Platform configuration
@@ -165,7 +165,7 @@ clarinet deploy --testnet
 
 **Important:** All contracts use **Clarity 4** and avoid deprecated features like `as-contract`.
 
-## 🌐 Environment Variables
+## Environment Variables
 
 Create a `.env` file with the following variables:
 
@@ -188,7 +188,7 @@ VITE_REWARDS_CONTRACT_ADDRESS=
 VITE_CHAINHOOKS_BASE_URL=http://localhost:20456
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Deploy Smart Contracts
 
@@ -209,7 +209,7 @@ npm run build
 # (Vercel, Netlify, etc.)
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Contract Tests
 ```bash
@@ -226,7 +226,7 @@ npm run test
 npm run test:integration
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [API Documentation](docs/API.md)
 - [Smart Contract Documentation](docs/CONTRACTS.md)
@@ -234,39 +234,35 @@ npm run test:integration
 - [Deployment Guide](docs/DEPLOYMENT.md)
 - [Contributing Guidelines](CONTRIBUTING.md)
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions. Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ### Development Workflow
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'feat: add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 Links
+## Links
 
 - [Stacks Documentation](https://docs.stacks.co/)
 - [Clarity Language Reference](https://docs.stacks.co/clarity/)
 - [WalletConnect Docs](https://docs.walletconnect.network/)
 - [Hiro Platform](https://www.hiro.so/)
 
-## 👥 Team
+## Team
 
-Built with ❤️ by the T-travel Team
+Developed by the T-travel Team
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Stacks Foundation
 - Hiro Systems
 - WalletConnect Team
 - Open source community
-
----
-
-**Happy Traveling on the Blockchain! 🚀**
